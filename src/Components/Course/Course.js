@@ -1,5 +1,6 @@
 import React from 'react';
-import {Card, Button} from 'react-bootstrap'
+import {Card, Button} from 'react-bootstrap';
+import './Course.css';
 const Course = (props) => {
   let {Title, Price,Image} = props.course;
     console.log(Image);
@@ -12,7 +13,7 @@ const Course = (props) => {
         <Card.Text>
        <p><h3>{Price}</h3></p>
         </Card.Text>
-        <Button variant="primary" onClick={() => props.handleAddCourse(props.course)}>Enroll Now</Button>
+        <Button className="course" variant="primary" onClick={() => props.handleAddCourse(props.course)}>Enroll Now</Button>
       </Card.Body>
     </Card>
     );

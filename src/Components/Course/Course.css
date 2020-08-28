@@ -1,0 +1,9 @@
+.course{
+    background-color:greenyellow;
+    width: 150px;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

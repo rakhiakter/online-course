@@ -21,7 +21,7 @@ const Cart = (props) => {
             <p>Courses Enrolled: {cart.length}</p>
              <p>Total Course Price:$ {formatNumber(totalPrice)}</p> 
             <p><small>Tax + VAT: {tax}</small></p>
-            <p>Total Price:$ {totalPrice + tax}</p>
+    <p>Total Price:$ {formatNumber(totalPrice + tax)}</p>
             <Button className="cart" variant="primary">Checkout</Button>
         </div>
     );

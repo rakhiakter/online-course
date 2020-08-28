@@ -11,6 +11,7 @@ const Cart = (props) => {
          const precision = num.toFixed(2);
          return Number(precision);
      }
+     let finalTotal = totalPrice + tax;
     return (
         <div style={
             {
@@ -21,7 +22,7 @@ const Cart = (props) => {
             <p>Courses Enrolled: {cart.length}</p>
              <p>Total Course Price:$ {formatNumber(totalPrice)}</p> 
             <p><small>Tax + VAT: {tax}</small></p>
-    <p>Total Price:$ {formatNumber(totalPrice + tax)}</p>
+    <p>Total Price:$ {formatNumber(finalTotal)}</p>
             <Button className="cart" variant="primary">Checkout</Button>
         </div>
     );

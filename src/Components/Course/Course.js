@@ -1,11 +1,20 @@
 import React from 'react';
-
-const Course = () => {
-    return (
-        <div class="row">
-        <div class="col-8">col-8</div>
-        <div class="col-4">col-4</div>
-      </div>
+import {Card, Button} from 'react-bootstrap'
+const Course = (props) => {
+  let {Title, Price,Image} = props.course;
+    console.log(Image);
+  return (
+      <Card style={{ width: '18rem' }}>
+      
+      <Card.Img variant="top" src={Image} />
+      <Card.Body>
+    <Card.Title><h1>{Title}</h1></Card.Title>
+        <Card.Text>
+       <p><h3>{Price}</h3></p>
+        </Card.Text>
+        <Button variant="primary" onClick={() => props.handleAddCourse(props.course)}>Enroll Now</Button>
+      </Card.Body>
+    </Card>
     );
 };
 

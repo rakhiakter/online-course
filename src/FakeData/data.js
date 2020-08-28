@@ -5,35 +5,35 @@ var fakeData =
    "Title": "An Entire MBA in 1 Course:Award Winning",
    "Price": "$9.99",
    "Button": "Enroll Now",
-   "Image": "https://img-a.udemycdn.com/course/480x270/637930_9a22_19.jpg 2x"
+   "Image": "https://img-a.udemycdn.com/course/480x270/637930_9a22_19.jpg"
  },
  {
    "Id": 2,
    "Title": " The Complete SQL Bootcamp 2020: Go from Zero",
    "Price": "$9.100",
    "Button": "Enroll Now",
-   "Image": " https://img-a.udemycdn.com/course/480x270/762616_7693_3.jpg 2x"
+   "Image": "https://img-a.udemycdn.com/course/480x270/762616_7693_3.jpg"
  },
  {
    "Id": 3,
    "Title": "The Complete Financial Analyst Course 2020",
    "Price": "$9.101",
    "Button": "Enroll Now",
-   "Image": " https://img-a.udemycdn.com/course/480x270/648826_f0e5_4.jpg 2x\""
+   "Image": "https://img-a.udemycdn.com/course/480x270/648826_f0e5_4.jpg"
  },
  {
    "Id": 4,
    "Title": "PMP Exam Prep Seminar - PMBOK Guide 6",
    "Price": "$9.102",
    "Button": "Enroll Now",
-   "Image": " https://img-a.udemycdn.com/course/480x270/1361790_2eb7.jpg 2x"
+   "Image": "https://img-a.udemycdn.com/course/480x270/1361790_2eb7.jpg"
  },
  {
    "Id": 5,
    "Title": " Tableau 2020 A-Z: Hands-On Tableau Training",
    "Price": "$9.103",
    "Button": "Enroll Now",
-   "Image": " https://img-a.udemycdn.com/course/480x270/937678_abd2_2.jpg 2x"
+   "Image": "https://img-a.udemycdn.com/course/480x270/937678_abd2_2.jpg"
  },
  {
    "Id": 6,
